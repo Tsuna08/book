@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru" ng-app="bookApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Электронная библиотека</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script> -->
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    
+    <script src="header/header.module.js"></script>
+    <script src="header/header.component.js"></script>
+    
+    <script src="book-list/book-list.module.js"></script>
+    <script src="book-list/book-list.component.js"></script>
+    <script src="book-description/book-description.module.js"></script>
+    <script src="book-description/book-description.component.js"></script>
+    <script src="book-read/book-read.module.js"></script>
+    <script src="book-read/book-read.component.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+    <div ng-view></div>
+  </body>
+</html>

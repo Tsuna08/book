@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <h1>Электронная библиотека</h1>
+    <div class="row">
+        <div class="col-md-9 " >
+            <div class="books">
+                <div ng-repeat="book in $ctrl.books | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+                    <img ng-src="{{book.imageUrl}}" alt="{{book.title}}" />
+                    <a  href="#!/books/{{book.id}}">{{book.title}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default col-md-2">
+            <div class="panel-body">
+                <label for="search">Поиск:</label>
+                <input class="form-control" id="search" ng-model="$ctrl.query" />
+                <label for="sort">Сортировка:</label>
+                <select class="form-control" id="sort" ng-model="$ctrl.orderProp">
+                    <option value="title">По названию</option>
+                    <option value="yearCreation">По дате создания</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
