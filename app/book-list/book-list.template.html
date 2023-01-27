@@ -3,10 +3,10 @@
   <div class="row">
     <div class="col-md-9">
       <div class="books">
-        <div ng-repeat="book in $ctrl.books | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+        <div class="book" ng-repeat="book in $ctrl.books | filter:$ctrl.query | orderBy:$ctrl.orderProp">
           <a href="#!/books/{{book.id}}">
             <img ng-src="{{book.imageUrl}}" alt="{{book.title}}" />
-            {{book.title}}
+            <p>{{book.title}}</p>
             </a>
         </div>
       </div>

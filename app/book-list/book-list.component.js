@@ -5,7 +5,6 @@ angular.module("bookList").component("bookList", {
     function BookListController($http) {
       let self = this;
       self.orderProp = "title";
-      console.log("hello");
       $http.get("books/books.json").then((response) => {
         self.books = response.data;
       });
