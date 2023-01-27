@@ -23,5 +23,30 @@
     "title": "С Земли на Луну прямым путём за 97 часов 20 минут",
     "yearCreation": 1865,
     "imageUrl": "img/books/from-Earth-to-the-Moon.jpg"
+  },
+  {
+    "id": "it's-hard-to-be-a-god", 
+    "title": "Трудно быть богом",
+    "yearCreation": 1965,
+    "imageUrl": "img/books/it's-hard-to-be-a-god.jpg"
+
+  },
+  {
+    "id": "monday-starts-on-saturday", 
+    "title": "Понедельник начинатеся в субботу",
+    "yearCreation": 1963,
+    "imageUrl": "img/books/monday-starts-on-saturday.jpg"
+  },
+  {
+    "id": "12-chairs", 
+    "title": "Двенадцать стульев",
+    "yearCreation": 1927,
+    "imageUrl": "img/books/12-chairs.jpg"
+  },
+  {
+    "id": "from-Earth-to-the-Moon",
+    "title": "С Земли на Луну прямым путём за 97 часов 20 минут",
+    "yearCreation": 1865,
+    "imageUrl": "img/books/from-Earth-to-the-Moon.jpg"
   }
 ]

@@ -1,11 +1,10 @@
-img {
-  height: 30%;
-    width: 30%
+body {
+  font-family:"Segoe UI"
 }
 
-h1 {
-  margin-top: 3%;
-    margin-left: 1%;
+img {
+  height: 30%;
+  width: 30%
 }
 
 p {
@@ -16,64 +15,53 @@ a {
   color: black;
 }
 
-.container{
-  margin-top: 3%;
-}
-
-.container h1 {
-  margin-top: 0;
-    margin-left: 0;
+.books {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
 }
 
 .books img {
-  height: 100%;
-    width: 100%
+  height: 80%;
+  width: 100%;
 }
 
 .books div {
-  float: left;
-    width: 15%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 35px;
-    display: inline;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .books a {
-  display: block;
-    text-align: center;
+  text-align: center;
 }
 
 .book-descr img {
   height: 20%;
-    width: 20%;
-    float: left;
-    margin: 1% 1% 1% 0;
-}
-
-.descr{
-  margin-top: 10%;
+  width: 20%;
+  float: left;
+  margin: 1% 1% 1% 0;
 }
 
 .header div {
   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .header-link a {
   float: right;
-    margin-right: 20%;
+  margin-right: 20%;
 }
 
 .header-link a {
   display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .header-link a:hover {
