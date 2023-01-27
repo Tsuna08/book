@@ -1,9 +1,6 @@
 {
-  "name": "angular-book_store",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-phonecat",
-  "license": "MIT",
+  "name": "angular-book-store",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "angular": "1.5.x",

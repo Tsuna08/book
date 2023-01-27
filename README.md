@@ -1,11 +1,17 @@
 # AngularJS Book store
 
 ### Installing Dependencies
+### Installing Dependencies
+
+The application relies upon Node.js tool, such as [Bower][bower]. You can install by running:
 
 ```
 npm install
 ```
-
+and 
+```
+npm postinstall
+```
 This will also run Bower, which will download the Angular files needed for the current step of the
 tutorial.
 
