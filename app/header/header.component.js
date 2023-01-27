@@ -1,5 +1,3 @@
-'use strict';
-
 angular.
     module('header').
     component('header', {

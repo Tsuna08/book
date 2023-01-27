@@ -1,17 +1,16 @@
 <h1>{{$ctrl.book.title}}</h1>
 <div class="container-fluid">
-    <div class="row">
-        <div class="book-descr col-md-12">
-            <img ng-src="{{$ctrl.book.imageUrl}}" alt="{{$ctrl.book.title}}" />
-            <div class="descr">
-                <!-- <h3><a ui-sref="read({bookId: $ctrl.book.id})">Читать книгу</a></h3>   -->
-                <h3><a href="#!/books/{{$ctrl.book.id}}/read">Читать книгу</a></h3>
-                <p><strong>Жанр:</strong> {{$ctrl.book.genre}}</p>
-                <p><strong>Авторы:</strong> {{$ctrl.book.author}}</p>
-                <p><strong>Дата создания:</strong> {{$ctrl.book.yearCreation}}</p>
-                <h3>Описание</h3>  
-                <p>{{$ctrl.book.description}}</p>
-            </div>        
+  <div class="row">
+    <div class="book-descr col-md-12">
+      <img ng-src="{{$ctrl.book.imageUrl}}" alt="{{$ctrl.book.title}}" />
+      <div class="descr">
+        <h3><a href="#!/books/{{$ctrl.book.id}}/read">Читать книгу</a></h3>
+        <p><strong>Жанр:</strong> {{$ctrl.book.genre}}</p>
+        <p><strong>Авторы:</strong> {{$ctrl.book.author}}</p>
+        <p><strong>Дата создания:</strong> {{$ctrl.book.yearCreation}}</p>
+        <h3>Описание</h3>
+        <p>{{$ctrl.book.description}}</p>
         </div>
-    </div>
+        </div>
+        </div>
 </div>

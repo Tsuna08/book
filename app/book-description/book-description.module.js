@@ -1,5 +1,1 @@
-'use strict';
-
-angular.module('bookDescription', [
-  'ngRoute',
-]);
+angular.module("bookDescription", ["ngRoute"]);

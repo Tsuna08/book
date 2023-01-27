@@ -1,10 +1,7 @@
-'use strict';
-
-angular.module('bookApp', [
-  'ngRoute',
-  // 'ui.router',
-  'header',
-  'bookDescription',
-  'bookList',
-  'bookRead'
+angular.module("bookApp", [
+  "ngRoute",
+  "header",
+  "bookDescription",
+  "bookList",
+  "bookRead",
 ]);
