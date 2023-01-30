@@ -7,12 +7,40 @@ a, a:hover, a:active {
   text-decoration: none;
 }
 
+header {
+  padding: 0 0;
+  background: #333;
+}
+
+header .container {  
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.header-link {
+  margin-left: 50%;
+}
+
+.header-link a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-link a:hover {
+  background-color: black;
+}
+
 .books {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 15px;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .books a {
@@ -50,27 +78,3 @@ a, a:hover, a:active {
   margin: 1% 1% 1% 0;
 }
 
-.header div {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.header-link a {
-  float: right;
-  margin-right: 20%;
-}
-
-.header-link a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.header-link a:hover {
-  background-color: black;
-}

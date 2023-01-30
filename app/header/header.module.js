@@ -1,3 +1,1 @@
-angular.module('header', [
-    'ngRoute'
-]);
+angular.module("header", ["ngRoute"]);
