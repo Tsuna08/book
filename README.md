@@ -21,7 +21,7 @@ tutorial.
 - Navigate your browser to [http://localhost:8000/](http://localhost:8000/) to see the application 
   running.
 
-### layout of system:
+### Layout of system:
 ![Layout](./layout/layout.png)
 ![Layout](./layout/layout_1.png)
 ![Layout](./layout/layout_2.png)
